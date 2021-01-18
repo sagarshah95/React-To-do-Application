@@ -1,0 +1,19 @@
+.edit-btn{
+    width: 50px;
+    outline: none;
+    height: 30px;
+    background: none;
+    border: none;
+    background-color: rgb(24, 121, 160);
+    cursor: pointer;
+    color: white;
+
+    &:hover{
+        box-shadow: 1px 5px 5px rgb(28, 168, 223);
+    }
+    &:active{
+        background-color: lightgreen;
+    }
+}
+
+//css for tododetails

@@ -1,0 +1,19 @@
+.todo-item {
+    display: block;
+    font-size: 20px;
+    background-color: rgb(231, 231, 159);
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+        box-shadow: 1px 0px 5px #c8d3db;
+    }
+    margin: 10px;
+    width: 350px;
+    padding: 20px;
+}
+.todo_incomplete{
+    text-decoration: none;
+}
+.todo_complete{
+    text-decoration: line-through;
+}

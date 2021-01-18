@@ -1,0 +1,36 @@
+.new-todo-item{
+    padding: 20px;
+    margin: 5px;
+    box-shadow: 1px 0.5px 1px gray;
+    width: 100%;
+    display: block;
+    padding-left: 100px;
+}
+
+.field-set {
+    border: 1px solid gray;
+    background-color: white;
+    width: 30%;
+    padding: 20px;
+}
+.save-btn, .close-btn{
+    width: 50px;
+    outline: none;
+    height: 30px;
+    background: none;
+    border: none;
+    background-color: rgb(56, 181, 197);
+    cursor: pointer;
+    color: white;
+
+    &:hover{
+        box-shadow: 1px 5px 5px rgb(28, 168, 223);
+    }
+    &:active{
+        background-color: rgb(9, 196, 186);
+    }
+}
+.errormsg{
+    color: red;
+}
+// css for todo

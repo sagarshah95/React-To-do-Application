@@ -1,0 +1,20 @@
+.toolbar{
+    margin: 10px;
+}
+.add-btn{
+    width: 50px;
+    outline: none;
+    height: 30px;
+    background: none;
+    border: none;
+    background-color: green;
+    cursor: pointer;
+    color: white;
+
+    &:hover{
+        box-shadow: 1px 5px 5px rgb(28, 168, 223);
+    }
+    &:active{
+        background-color: lightgreen;
+    }
+}
